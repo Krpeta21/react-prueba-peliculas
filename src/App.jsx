@@ -1,6 +1,5 @@
 import "./App.css";
 import { Movies } from "./components/Movies";
-
 import { useMovies } from "./hooks/useMovies";
 import { useSearch } from "./hooks/useSearch";
 
