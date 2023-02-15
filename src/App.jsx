@@ -8,7 +8,7 @@ import { useSearch } from "./hooks/useSearch";
 
 function App() {
   const {search,updateSearch,error} = useSearch() 
-  const { movies,getMovies } = useMovies({search});
+  const { movies,loading,getMovies } = useMovies({search});
   
 
   const handleSubmit = (event) => {
@@ -40,7 +40,9 @@ function App() {
         {error && <p style={{color:'red'}}>{error}</p>}
       </header>
       <main>
-        <Movies movies={movies} />
+        {
+          loading ? <p>Cargando...</p> : <Movies movies={movies} />
+        }        
       </main>
     </div>
   );
