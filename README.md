@@ -13,7 +13,7 @@ Requerimientos:
 
 listo\._./ Necesita mostrar un input para buscar la película y un botón para buscar.
 listo\._./  Lista las películas y muestra el título, año y poster.
-- Que el formulario funcione
+listo\._./  Que el formulario funcione
 - Haz que las películas se muestren en un grid responsive.
 - Hacer el fetching de datos a la API
 
