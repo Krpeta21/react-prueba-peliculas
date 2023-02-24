@@ -5,7 +5,6 @@ Crea una aplicación para buscar películas
 API a usar:
 
 - https://www.omdbapi.com/
-- API_KEY: 4f9ee9da
 
 // https://www.omdbapi.com/?apikey=4287ad07&s=Avengers
 
